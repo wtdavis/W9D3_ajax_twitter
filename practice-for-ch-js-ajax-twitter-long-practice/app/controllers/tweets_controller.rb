@@ -8,6 +8,7 @@ class TweetsController < ApplicationController
 
   def index
     # simulate latency
+    debugger
     sleep(1)
     
     # Your code here
